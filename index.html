@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="yeet.css">
+<style>
+</style>
+<script src=""></script>
+<body>
+
+<div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#contact">About Me</a>
+    <a href="#about">More</a>
+</div> 
+
+    <div class="hero-image">
+        <div class="hero-text">
+          <h1>Kevin Liu</h1>
+          <p>Software Engineering</p>
+        </div>
+      </div> 
+
+<div class="about-section">
+  <h1>About Me</h1>
+  <p>Second-year Software Engineering Student at Western University</p>
+  <p>I am passionate about gaming, sports analytics, and data visualization!</p>
+</div>
+
+<h2 style="text-align:center">My Projects/Work Experience</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Artificial Intelligence-Based Navigation System for Automated Wheelchairs</h2>
+        <p class="title">University of Texas at San Antonio—San Antonio, Texas</p>
+        <p>- Team of 4 Faculty members at UTSA, 2 students<br>
+          - Formulated a Research Paper with 3 primary objectives:<br>
+          - Utilize mobile apps to capture images in front of Powered Wheelchairs<br>
+          - Develop an AI-based model for automated indoor navigation<br>
+          - Provide an accessible and affordable edge-based AI solution for people with disabilities<br>
+          - Brainstormed possible technologies to use, possible solutions and implementation of the solutions<br>
+          - Used Android Studio to develop an app to take photos, then crop and compress the photos before sending to a database for image processing<br>
+          - Relayed information to image processing using a ResNet50 neural network to classify images into directional inputs<br>
+          </p>
+        <p></p>
+        <p><button class="button">Details</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Twitter Webscraper to Track Information on Tornadoes in Canada</h2>
+        <p class="title">Northern Tornadoes Project—London, Ontario, Canada</p>
+        <p>- Team of 4 students<br>
+          - Create a script to help first-responders locate news on tornado damages, survivors, etc.<br>
+          - Developed and refined a Python script in combination with the Twitter API to group tweets and mark them based on factors such as relevance, date posted, retweets, likes 
+          and more metrics, then outputs the tweets to a website where search results will show all relevant tweets that passed through the verification process<br>
+          - Used Flask for website framework, and Pandas library to create data-frames for grouping tweets<br>
+          - Bolstered Northern Tornadoes Project work efficiency by developing an automatic search engine to find relevant info on active tornadoes from social media, without the need 
+          to manually scour Twitter posts to find new information</p>
+        <p></p>
+        <p><button class="button" onclick="href='//tornadotracker.herokuapp.com'">Details</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Python Code to Track League of Legends Recent Role History</h2>
+        <p class="title"></p>
+        <p>- Wrote Python code to quickly check a user's match history and see the user's past matches; which roles they played most recently and tally up all games played in every role<br>
+          - Manipulated JSON files to extract relevant information from large data sets when given input<br>
+          - Used python packages, plotly and pandas, to organize and visualize collected information from data frames</p>
+        <p></p>
+        <p><button class="button" onclick="href='//github.com/kevliu71/LOL-Role-Checker'">Details</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Research Intern</h2>
+        <p class="title">University of Texas at San Antonio—San Antonio, Texas</p>
+        <p>- Develop and discover new solutions to existing Software Engineering problems and research questions<br>
+          - Assisted with development in an Android app using Android Studio and Java to track, record and display health statistics to the user ie. steps, distance travelled, calories, etc<br>
+          - Used Android Studio, Java as primary technologies to create programs<br>
+          </p>
+        <p></p>
+        <p><button class="button" onclick="href='//github.com/kevliu71/LOL-Role-Checker'">Details</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Data Administrator/Bookkeeping</h2>
+        <p class="title">Axia Restaurant, Mississauga, Ontario, Canada</p>
+        <p>- In charge of organizing, analyzing and recording past files, invoices and costs<br>
+          - Working cross functionally across different parts of the restaurant if needed ie. Kitchen, Front of House, etc.<br>
+          - Manage restaurant finances using excel, to track daily cash transactions
+          </p>
+        <p></p>
+        <p><button class="button" onclick="href='//github.com/kevliu71/LOL-Role-Checker'">Details</button></p>
+      </div>
+    </div>
+  </div>
+</div> 
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Me</h2>
+    <p>Personal contact details are listed below as well!</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="map.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div> 
+<style>
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+  }
+  </style>
+  
+  <div class="footer">
+    <p>+1(416-822-7911) --------------------------- kevliu71@gmail.com</p>
+  </div> 
+
+</body>
+</html> 
